@@ -7,7 +7,7 @@ function App() {
   return (
     <Layout>
       <Switch>
-        <Route path="/" exact>
+        <Route path="/react-demo-project" exact>
           <AllMeetups />
         </Route>
         <Route path="/new-meetup">
