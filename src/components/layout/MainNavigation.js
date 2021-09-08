@@ -10,7 +10,7 @@ const MainNavigation = () => {
   const favoritesCtx = useContext(FavoritesContext);
 
   const toHomeHandler = () => {
-    router.push("/");
+    router.push("/react-demo-project");
   };
   return (
     <header className={classes.header}>
